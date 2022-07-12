@@ -1,0 +1,212 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+
+/* 未登录样式 */
+.clockURL {
+    color: red;
+}
+
+.goURL {
+    color: blue;
+    cursor: pointer;
+}
+
+/* 按钮公共样式 */
+
+.right {
+    height: 60px;
+    float: right;
+}
+
+.right img {
+    width: 40px;
+}
+
+.right .btn {
+    float: none;
+}
+
+.change-pwd:focus,
+.logout:focus,
+.add:focus,
+.del-sel:focus,
+.search:focus,
+.submit:focus,
+.cancel:focus,
+.back:focus {
+    outline: none;
+}
+
+.addNum,
+.reduceNum {
+    width: 24px;
+    height: 24px;
+}
+
+.num {
+    display: inline-block;
+    width: 24px;
+}
+
+.container {
+    width: 100%;
+}
+
+/* 头部导航部分 */
+.nav {
+    padding: 0px 200px;
+    background: linear-gradient(#fff, #eee);
+    line-height: 60px;
+}
+
+.nav-title {
+    font-size: 24px;
+}
+
+.path {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    background-color: transparent;
+}
+
+.username {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.list-group {
+    width: 12%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.icon-xiangyou {
+    float: right;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.content-title {
+    font-size: 20px;
+}
+
+.box-out {
+    border: 1px solid #ccc;
+
+}
+
+/* content-top部分 */
+.content .content-top {
+    padding: 10px 20px;
+    background-color: #eee;
+}
+
+/* content-middle部分 */
+.content .content-middle {
+    padding: 10px 20px;
+}
+
+.table-responsive {
+    width: 100%;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.table {
+    text-align: center;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table input{
+    width: 100px;
+}
+thead tr td{
+    width: 50px;
+}
+#checkbox-all{
+    width: 50px;
+}
+
+
+.content-middle-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+.page-list-btn {
+    display: flex;
+    align-items: center;
+}
+
+.page-menu {
+    min-width: 100px;
+}
+
+/* content-bottom部分 */
+.content-bottom {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #eee;
+}
+
+.content-bottom .total-price {
+    margin: 0;
+}
+
+.option-p{
+    margin: 10px auto;
+    width: 50%;
+}
+.option-p span{
+    vertical-align: -2.5px;
+}
+.option-p-sel{
+    border-radius: 5px;
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+.close{
+    float: none;
+    margin-left: 10px;
+}
+.edit-title{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.edit-pwd{
+    width: 100%;
+}
+.edit-pwd:focus{
+    outline: none;
+}
+.hint{
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #ff4500;
+}

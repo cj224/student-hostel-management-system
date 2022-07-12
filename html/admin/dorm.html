@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宿舍管理系统</title>
+    <link rel="stylesheet" href="/fonts/iconfont.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/public/jquery-3.6.0.min.js"></script>
+    <script src="/public/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="all">
+        <div class="container">
+            <div class="row">
+                <!-- 头部 -->
+                <div class="nav">
+                    <sapn class="nav-title">宿舍管理系统</sapn>
+                    <ol class="breadcrumb path">
+
+                    </ol>
+                    <span class="username">欢迎您！</span>
+                    <div class="btn-group right">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <img src="/img/天空3.jpeg" alt="..." class="img-circle">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">个人信息</a></li>
+                            <li class="logout"><a href="#">注销</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row flex-content">
+                    <!-- 列表菜单 -->
+                    <div class="list-group col-md-1 lists">
+
+                    </div>
+
+                    <!-- 内容 -->
+                    <div class="public col-md-8">
+                        <div class="content">
+                            <p class="content-title">宿舍楼管理</p>
+                            <div class="box-out">
+                                <div class="content-top">
+                                    <form class="form-inline">
+                                        <select class="form-control dorm-menu">
+                                            <!-- <option value="">请选择宿舍楼</option>
+                                            <option value="1">第一宿舍楼</option>
+                                            <option value="2">第二宿舍楼</option>
+                                            <option value="3">第三宿舍楼</option>
+                                            <option value="4">第四宿舍楼</option>
+                                            <option value="5">第五宿舍楼</option> -->
+                                        </select>
+                                        <button type="button" class="btn btn-default iconfont icon-sousuo search"
+                                            onclick="do_search()"></button>
+                                        <button type="reset" class="btn btn-default back"
+                                            onclick="do_back()">重置</button>
+                                        <div class="btn-group right" role="group" aria-label="...">
+                                            <button type="button" class="btn btn-success add"
+                                                onclick="add_update()">添加</button>
+                                            <button type="button" class="btn btn-danger del-sel"
+                                                onclick="del_sel()">批量删除</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="content-middle">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <td>
+                                                        <label>
+                                                            <input type="checkbox" id="checkbox-all"
+                                                                name="blankCheckbox" onclick="sel_all(this)">
+                                                        </label>
+                                                    </td>
+                                                    <th>序号</th>
+                                                    <th>名称</th>
+                                                    <th>简介</th>
+                                                    <th>管理员</th>
+                                                    <th>操作</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="tbody">
+                                                <!-- 表格内容 -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="content-middle-bottom">
+                                        <div>一共<span class="total-list"></span>条记录</div>
+                                        <nav aria-label="Page navigation">
+                                            <ul class="pagination">
+                                                <!-- 分页列表 -->
+                                            </ul>
+                                        </nav>
+                                        <div class="btn-group page-list-btn">
+                                            <select class="form-control page-menu">
+                                                <option value="5">5</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="50">50</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/public/content.js"></script>
+    <script src="/js/dorm.js"></script>
+    <script src="/public/function.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3480654 */
+  src: url('iconfont.woff2?t=1656830504357') format('woff2'),
+       url('iconfont.woff?t=1656830504357') format('woff'),
+       url('iconfont.ttf?t=1656830504357') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangyou:before {
+  content: "\e666";
+}
+
+.icon-sousuo:before {
+  content: "\e651";
+}
+

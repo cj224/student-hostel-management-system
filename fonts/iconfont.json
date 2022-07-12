@@ -1,0 +1,23 @@
+{
+  "id": "3480654",
+  "name": "综合作业7",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "651239",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "629357",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}
